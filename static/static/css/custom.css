@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<title>
+Hyeongmok Lee / Hyeongmok-Lee | 
+GitLab
+</title>
+<link href="/assets/favicon-4b751da746de7855d7eb8123072388ed.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+<link href="/assets/application-668404a7d783f91911745845099eca50.css" media="screen" rel="stylesheet" type="text/css" />
+<script src="/assets/application-f67a5e5474a5d73db25c9b57d5918639.js" type="text/javascript"></script>
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="hQSyqtoRpVs/86Ghh97TaFFiBAi8KK1y+iCLiYCzghI=" name="csrf-token" />
+<script type="text/javascript">
+//<![CDATA[
+window.gon = {};gon.default_issues_tracker="gitlab";gon.api_version="v3";gon.api_token="AtyuqcD1KETr62qyY9fh";gon.gravatar_url="http://www.gravatar.com/avatar/%{hash}?s=%{size}&d=mm";gon.relative_url_root="";
+//]]>
+</script>
+
+</head>
+
+<body class='ui_mars project' data-page='projects:blob:show' data-project-id='868'>
+<header class='navbar navbar-static-top navbar-gitlab'>
+<div class='navbar-inner'>
+<div class='container'>
+<div class='app_logo'>
+<span class='separator'></span>
+<a href="/" class="home has_bottom_tooltip" title="Dashboard"><h1>GITLAB</h1>
+</a><span class='separator'></span>
+</div>
+<h1 class='project_name'>Hyeongmok-Lee</h1>
+<ul class='nav'>
+<li>
+<a>
+<div class='hide turbolink-spinner'>
+<i class='icon-refresh icon-spin'></i>
+Loading...
+</div>
+</a>
+</li>
+<li>
+<div class='search'>
+<form accept-charset="UTF-8" action="/search" class="navbar-form pull-left" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+<input class="search-input" id="search" name="search" placeholder="Search in this project" type="text" />
+<input id="group_id" name="group_id" type="hidden" />
+<input id="project_id" name="project_id" type="hidden" value="868" />
+<input id="search_code" name="search_code" type="hidden" value="true" />
+<input id="repository_ref" name="repository_ref" type="hidden" value="master" />
+
+<div class='search-autocomplete-json hide' data-autocomplete-opts='[{"label":"project: Hyeongmok Lee / Hyeongmok-Lee","url":"/Hyeongmok-Lee/hyeongmok-lee"},{"label":"My Profile settings","url":"/profile"},{"label":"My SSH Keys","url":"/profile/keys"},{"label":"My Dashboard","url":"/"},{"label":"Admin Section","url":"/admin"},{"label":"Hyeongmok Lee / Hyeongmok-Lee - Files","url":"/Hyeongmok-Lee/hyeongmok-lee/tree/master"},{"label":"Hyeongmok Lee / Hyeongmok-Lee - Commits","url":"/Hyeongmok-Lee/hyeongmok-lee/commits/master"},{"label":"Hyeongmok Lee / Hyeongmok-Lee - Network","url":"/Hyeongmok-Lee/hyeongmok-lee/network/master"},{"label":"Hyeongmok Lee / Hyeongmok-Lee - Graph","url":"/Hyeongmok-Lee/hyeongmok-lee/graphs/master"},{"label":"Hyeongmok Lee / Hyeongmok-Lee - Issues","url":"/Hyeongmok-Lee/hyeongmok-lee/issues"},{"label":"Hyeongmok Lee / Hyeongmok-Lee - Merge Requests","url":"/Hyeongmok-Lee/hyeongmok-lee/merge_requests"},{"label":"Hyeongmok Lee / Hyeongmok-Lee - Milestones","url":"/Hyeongmok-Lee/hyeongmok-lee/milestones"},{"label":"Hyeongmok Lee / Hyeongmok-Lee - Snippets","url":"/Hyeongmok-Lee/hyeongmok-lee/snippets"},{"label":"Hyeongmok Lee / Hyeongmok-Lee - Team","url":"/Hyeongmok-Lee/hyeongmok-lee/team"},{"label":"Hyeongmok Lee / Hyeongmok-Lee - Wall","url":"/Hyeongmok-Lee/hyeongmok-lee/wall"},{"label":"Hyeongmok Lee / Hyeongmok-Lee - Wiki","url":"/Hyeongmok-Lee/hyeongmok-lee/wikis"},{"label":"help: API Help","url":"/help/api"},{"label":"help: Markdown Help","url":"/help/markdown"},{"label":"help: Permissions Help","url":"/help/permissions"},{"label":"help: Public Access Help","url":"/help/public_access"},{"label":"help: Rake Tasks Help","url":"/help/raketasks"},{"label":"help: SSH Keys Help","url":"/help/ssh"},{"label":"help: System Hooks Help","url":"/help/system_hooks"},{"label":"help: Web Hooks Help","url":"/help/web_hooks"},{"label":"help: Workflow Help","url":"/help/workflow"}]'></div>
+</form>
+
+</div>
+
+</li>
+<li>
+<a href="/public" class="has_bottom_tooltip" data-original-title="Public area" title="Public area"><i class='icon-globe'></i>
+</a></li>
+<li>
+<a href="/s/Hyeongmok-Lee" class="has_bottom_tooltip" data-original-title="Public area" title="My snippets"><i class='icon-paste'></i>
+</a></li>
+<li>
+<a href="/profile" class="has_bottom_tooltip" data-original-title="Profile settings&quot;" title="Profile settings"><i class='icon-user'></i>
+</a></li>
+<li>
+<a href="/users/sign_out" class="has_bottom_tooltip" data-method="delete" data-original-title="Logout" rel="nofollow" title="Logout"><i class='icon-signout'></i>
+</a></li>
+<li>
+<a href="/u/Hyeongmok-Lee" class="profile-pic" id="profile-pic"><img alt="User activity" src="http://www.gravatar.com/avatar/5a30caa9c4e7ba8b6dadbf474d167195?s=26&amp;d=mm" />
+</a></li>
+</ul>
+</div>
+</div>
+</header>
+
+<script>
+  GitLab.GfmAutoComplete.dataSource = "/Hyeongmok-Lee/hyeongmok-lee/autocomplete_sources"
+  GitLab.GfmAutoComplete.Emoji.assetBase = '/assets/emoji'
+  GitLab.GfmAutoComplete.setup();
+</script>
+
+<div class='flash-container'>
+</div>
+
+
+<nav class='main-nav'>
+<div class='container'><ul>
+<li class="home"><a href="/Hyeongmok-Lee/hyeongmok-lee" title="Project"><i class='icon-home'></i>
+</a></li><li class="active"><a href="/Hyeongmok-Lee/hyeongmok-lee/tree/master">Files</a>
+</li><li class=""><a href="/Hyeongmok-Lee/hyeongmok-lee/commits/master">Commits</a>
+</li><li class=""><a href="/Hyeongmok-Lee/hyeongmok-lee/network/master">Network</a>
+</li><li class=""><a href="/Hyeongmok-Lee/hyeongmok-lee/graphs/master">Graphs</a>
+</li><li class=""><a href="/Hyeongmok-Lee/hyeongmok-lee/issues">Issues
+<span class='count issue_counter'>0</span>
+</a></li><li class=""><a href="/Hyeongmok-Lee/hyeongmok-lee/merge_requests">Merge Requests
+<span class='count merge_counter'>0</span>
+</a></li><li class=""><a href="/Hyeongmok-Lee/hyeongmok-lee/wikis/home">Wiki</a>
+</li><li class=""><a href="/Hyeongmok-Lee/hyeongmok-lee/edit" class="stat-tab tab ">Settings
+</a></li></ul>
+</div>
+</nav>
+<div class='container'>
+<div class='content'><div class='tree-ref-holder'>
+<form accept-charset="UTF-8" action="/Hyeongmok-Lee/hyeongmok-lee/refs/switch" class="project-refs-form" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+<select class="project-refs-select chosen" id="ref" name="ref"><optgroup label="Branch"><option value="master" selected="selected">master</option></optgroup><optgroup label="Tag"></optgroup></select>
+<input id="destination" name="destination" type="hidden" value="blob" />
+<input id="path" name="path" type="hidden" value="static/static/css/custom.css" />
+</form>
+
+
+</div>
+<div class='tree-holder' id='tree-holder'>
+<ul class='breadcrumb'>
+<li>
+<i class='icon-angle-right'></i>
+<a href="/Hyeongmok-Lee/hyeongmok-lee/tree/master">hyeongmok-lee
+</a></li>
+/
+<li>
+<a href="/Hyeongmok-Lee/hyeongmok-lee/tree/master/static">static</a>
+</li>
+/
+<li>
+<a href="/Hyeongmok-Lee/hyeongmok-lee/tree/master/static/static">static</a>
+</li>
+/
+<li>
+<a href="/Hyeongmok-Lee/hyeongmok-lee/tree/master/static/static/css">css</a>
+</li>
+/
+<li>
+<a href="/Hyeongmok-Lee/hyeongmok-lee/blob/master/static/static/css/custom.css"><span class='cblue'>
+custom.css
+</span>
+</a></li>
+</ul>
+<div class='tree-content-holder' id='tree-content-holder'>
+<div class='file-holder'>
+<div class='file-title'>
+<i class='icon-file'></i>
+<span class='file_name'>
+custom.css
+<small>1.42 KB</small>
+</span>
+<span class='options'><div class='btn-group tree-btn-group'>
+<a href="/Hyeongmok-Lee/hyeongmok-lee/edit/master/static/static/css/custom.css" class="btn btn-small">edit</a>
+<a href="/Hyeongmok-Lee/hyeongmok-lee/raw/master/static/static/css/custom.css" class="btn btn-small" target="_blank">raw</a>
+<a href="/Hyeongmok-Lee/hyeongmok-lee/blame/master/static/static/css/custom.css" class="btn btn-small">blame</a>
+<a href="/Hyeongmok-Lee/hyeongmok-lee/commits/master/static/static/css/custom.css" class="btn btn-small">history</a>
+</div>
+</span>
+</div>
+<div class='file-content code'>
+<div class='white'>
+<table class="lines"><tr><td><pre class="line_numbers"><a id="L1" href="#L1" rel="#L1"><i class="icon-link"></i>  1</a>
+<a id="L2" href="#L2" rel="#L2"><i class="icon-link"></i>  2</a>
+<a id="L3" href="#L3" rel="#L3"><i class="icon-link"></i>  3</a>
+<a id="L4" href="#L4" rel="#L4"><i class="icon-link"></i>  4</a>
+<a id="L5" href="#L5" rel="#L5"><i class="icon-link"></i>  5</a>
+<a id="L6" href="#L6" rel="#L6"><i class="icon-link"></i>  6</a>
+<a id="L7" href="#L7" rel="#L7"><i class="icon-link"></i>  7</a>
+<a id="L8" href="#L8" rel="#L8"><i class="icon-link"></i>  8</a>
+<a id="L9" href="#L9" rel="#L9"><i class="icon-link"></i>  9</a>
+<a id="L10" href="#L10" rel="#L10"><i class="icon-link"></i> 10</a>
+<a id="L11" href="#L11" rel="#L11"><i class="icon-link"></i> 11</a>
+<a id="L12" href="#L12" rel="#L12"><i class="icon-link"></i> 12</a>
+<a id="L13" href="#L13" rel="#L13"><i class="icon-link"></i> 13</a>
+<a id="L14" href="#L14" rel="#L14"><i class="icon-link"></i> 14</a>
+<a id="L15" href="#L15" rel="#L15"><i class="icon-link"></i> 15</a>
+<a id="L16" href="#L16" rel="#L16"><i class="icon-link"></i> 16</a>
+<a id="L17" href="#L17" rel="#L17"><i class="icon-link"></i> 17</a>
+<a id="L18" href="#L18" rel="#L18"><i class="icon-link"></i> 18</a>
+<a id="L19" href="#L19" rel="#L19"><i class="icon-link"></i> 19</a>
+<a id="L20" href="#L20" rel="#L20"><i class="icon-link"></i> 20</a>
+<a id="L21" href="#L21" rel="#L21"><i class="icon-link"></i> 21</a>
+<a id="L22" href="#L22" rel="#L22"><i class="icon-link"></i> 22</a>
+<a id="L23" href="#L23" rel="#L23"><i class="icon-link"></i> 23</a>
+<a id="L24" href="#L24" rel="#L24"><i class="icon-link"></i> 24</a>
+<a id="L25" href="#L25" rel="#L25"><i class="icon-link"></i> 25</a>
+<a id="L26" href="#L26" rel="#L26"><i class="icon-link"></i> 26</a>
+<a id="L27" href="#L27" rel="#L27"><i class="icon-link"></i> 27</a>
+<a id="L28" href="#L28" rel="#L28"><i class="icon-link"></i> 28</a>
+<a id="L29" href="#L29" rel="#L29"><i class="icon-link"></i> 29</a>
+<a id="L30" href="#L30" rel="#L30"><i class="icon-link"></i> 30</a>
+<a id="L31" href="#L31" rel="#L31"><i class="icon-link"></i> 31</a>
+<a id="L32" href="#L32" rel="#L32"><i class="icon-link"></i> 32</a>
+<a id="L33" href="#L33" rel="#L33"><i class="icon-link"></i> 33</a>
+<a id="L34" href="#L34" rel="#L34"><i class="icon-link"></i> 34</a>
+<a id="L35" href="#L35" rel="#L35"><i class="icon-link"></i> 35</a>
+<a id="L36" href="#L36" rel="#L36"><i class="icon-link"></i> 36</a>
+<a id="L37" href="#L37" rel="#L37"><i class="icon-link"></i> 37</a>
+<a id="L38" href="#L38" rel="#L38"><i class="icon-link"></i> 38</a>
+<a id="L39" href="#L39" rel="#L39"><i class="icon-link"></i> 39</a>
+<a id="L40" href="#L40" rel="#L40"><i class="icon-link"></i> 40</a>
+<a id="L41" href="#L41" rel="#L41"><i class="icon-link"></i> 41</a>
+<a id="L42" href="#L42" rel="#L42"><i class="icon-link"></i> 42</a>
+<a id="L43" href="#L43" rel="#L43"><i class="icon-link"></i> 43</a>
+<a id="L44" href="#L44" rel="#L44"><i class="icon-link"></i> 44</a>
+<a id="L45" href="#L45" rel="#L45"><i class="icon-link"></i> 45</a>
+<a id="L46" href="#L46" rel="#L46"><i class="icon-link"></i> 46</a>
+<a id="L47" href="#L47" rel="#L47"><i class="icon-link"></i> 47</a>
+<a id="L48" href="#L48" rel="#L48"><i class="icon-link"></i> 48</a>
+<a id="L49" href="#L49" rel="#L49"><i class="icon-link"></i> 49</a>
+<a id="L50" href="#L50" rel="#L50"><i class="icon-link"></i> 50</a>
+<a id="L51" href="#L51" rel="#L51"><i class="icon-link"></i> 51</a></pre></td><td><div class="highlight"><pre><div id="LC1" class="line">			<span class="k">@-ms-viewport</span>       <span class="p">{</span> <span class="nt">width</span><span class="o">:</span> <span class="nt">device-width</span><span class="o">;</span> <span class="p">}</span></div><div id="LC2" class="line">			<span class="k">@-webkit-viewport</span>   <span class="p">{</span> <span class="nt">width</span><span class="o">:</span> <span class="nt">device-width</span><span class="o">;</span> <span class="p">}</span></div><div id="LC3" class="line">			<span class="k">@-moz-viewport</span>      <span class="p">{</span> <span class="nt">width</span><span class="o">:</span> <span class="nt">device-width</span><span class="o">;</span> <span class="p">}</span></div><div id="LC4" class="line">			<span class="k">@-ms-viewport</span>       <span class="p">{</span> <span class="nt">width</span><span class="o">:</span> <span class="nt">device-width</span><span class="o">;</span> <span class="p">}</span></div><div id="LC5" class="line">			<span class="k">@-o-viewport</span>        <span class="p">{</span> <span class="nt">width</span><span class="o">:</span> <span class="nt">device-width</span><span class="o">;</span> <span class="p">}</span></div><div id="LC6" class="line">			<span class="k">@viewport</span>           <span class="p">{</span> <span class="nt">width</span><span class="o">:</span> <span class="nt">device-width</span><span class="o">;</span> <span class="p">}</span></div><div id="LC7" class="line"><br/></div><div id="LC8" class="line">			<span class="c">/* Box-sizing resets</span></div><div id="LC9" class="line"><span class="c">			 *</span></div><div id="LC10" class="line"><span class="c">			 * Reset individual elements or override regions to avoid conflicts due to</span></div><div id="LC11" class="line"><span class="c">			 * global box model settings of Bootstrap. Two options, individual overrides and</span></div><div id="LC12" class="line"><span class="c">			 * region resets, are available as plain CSS and uncompiled Less formats.</span></div><div id="LC13" class="line"><span class="c">			 */</span></div><div id="LC14" class="line"><br/></div><div id="LC15" class="line">			<span class="c">/* Option 1A: Override a single element&#39;s box model via CSS */</span></div><div id="LC16" class="line">			<span class="nc">.element</span> <span class="p">{</span></div><div id="LC17" class="line">				<span class="o">-</span><span class="n">webkit</span><span class="o">-</span><span class="n">box</span><span class="o">-</span><span class="n">sizing</span><span class="o">:</span> <span class="k">content</span><span class="o">-</span><span class="n">box</span><span class="p">;</span></div><div id="LC18" class="line">				<span class="o">-</span><span class="n">moz</span><span class="o">-</span><span class="n">box</span><span class="o">-</span><span class="n">sizing</span><span class="o">:</span> <span class="k">content</span><span class="o">-</span><span class="n">box</span><span class="p">;</span></div><div id="LC19" class="line">				<span class="n">box</span><span class="o">-</span><span class="n">sizing</span><span class="o">:</span> <span class="k">content</span><span class="o">-</span><span class="n">box</span><span class="p">;</span></div><div id="LC20" class="line">			<span class="p">}</span></div><div id="LC21" class="line"><br/></div><div id="LC22" class="line">			<span class="c">/* Option 1B: Override a single element&#39;s box model by using a Bootstrap Less mixin */</span></div><div id="LC23" class="line">			<span class="nc">.element</span> <span class="p">{</span><span class="o">.</span><span class="n">box</span><span class="o">-</span><span class="n">sizing</span><span class="p">(</span><span class="k">content</span><span class="o">-</span><span class="n">box</span><span class="p">);</span></div><div id="LC24" class="line">			<span class="p">}</span></div><div id="LC25" class="line"><br/></div><div id="LC26" class="line">			<span class="c">/* Option 2A: Reset an entire region via CSS */</span></div><div id="LC27" class="line">			<span class="nc">.reset-box-sizing</span><span class="o">,</span> <span class="nc">.reset-box-sizing</span> <span class="o">*,</span> <span class="nc">.reset-box-sizing</span> <span class="o">*</span><span class="nd">:before</span><span class="o">,</span> <span class="nc">.reset-box-sizing</span> <span class="o">*</span><span class="nd">:after</span> <span class="p">{</span></div><div id="LC28" class="line">				<span class="o">-</span><span class="n">webkit</span><span class="o">-</span><span class="n">box</span><span class="o">-</span><span class="n">sizing</span><span class="o">:</span> <span class="k">content</span><span class="o">-</span><span class="n">box</span><span class="p">;</span></div><div id="LC29" class="line">				<span class="o">-</span><span class="n">moz</span><span class="o">-</span><span class="n">box</span><span class="o">-</span><span class="n">sizing</span><span class="o">:</span> <span class="k">content</span><span class="o">-</span><span class="n">box</span><span class="p">;</span></div><div id="LC30" class="line">				<span class="n">box</span><span class="o">-</span><span class="n">sizing</span><span class="o">:</span> <span class="k">content</span><span class="o">-</span><span class="n">box</span><span class="p">;</span></div><div id="LC31" class="line">			<span class="p">}</span></div><div id="LC32" class="line"><br/></div><div id="LC33" class="line">			<span class="c">/* Option 2B: Reset an entire region with a custom Less mixin */</span></div><div id="LC34" class="line">			<span class="nc">.reset-box-sizing</span> <span class="p">{</span><span class="o">&amp;,</span></div><div id="LC35" class="line">				<span class="o">*,</span></div><div id="LC36" class="line">				<span class="o">*:</span><span class="n">before</span><span class="o">,</span></div><div id="LC37" class="line">				<span class="o">*:</span><span class="n">after</span> <span class="err">{</span></div><div id="LC38" class="line">				<span class="o">.</span><span class="n">box</span><span class="o">-</span><span class="n">sizing</span><span class="p">(</span><span class="k">content</span><span class="o">-</span><span class="n">box</span><span class="p">);</span></div><div id="LC39" class="line">				<span class="p">}</span></div><div id="LC40" class="line">			<span class="err">}</span></div><div id="LC41" class="line">			<span class="nc">.element</span> <span class="p">{</span><span class="o">.</span><span class="n">reset</span><span class="o">-</span><span class="n">box</span><span class="o">-</span><span class="n">sizing</span><span class="p">();</span></div><div id="LC42" class="line">			<span class="p">}</span></div><div id="LC43" class="line">			</div><div id="LC44" class="line">			<span class="nt">a</span> <span class="p">{</span></div><div id="LC45" class="line">				<span class="k">cursor</span><span class="o">:</span> <span class="k">pointer</span><span class="p">;</span></div><div id="LC46" class="line">			<span class="p">}</span></div><div id="LC47" class="line">			</div><div id="LC48" class="line">			<span class="nc">.footer-links</span> <span class="nt">li</span> <span class="p">{</span></div><div id="LC49" class="line">				<span class="k">display</span><span class="o">:</span> <span class="k">inline</span><span class="p">;</span></div><div id="LC50" class="line">				<span class="k">padding</span><span class="o">:</span> <span class="m">0</span> <span class="m">2px</span><span class="p">;</span></div><div id="LC51" class="line">			<span class="p">}</span></div></pre></div></td></tr></table
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</body>
+</html>

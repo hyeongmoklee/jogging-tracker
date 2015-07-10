@@ -1,0 +1,20 @@
+[
+{
+    "pk": 3, 
+    "model": "account.userextend", 
+    "fields": {
+        "username": "freemoky", 
+        "groups": [], 
+        "short_name": "", 
+        "is_active": true, 
+        "is_superuser": false, 
+        "is_staff": false, 
+        "last_login": "2014-12-21T01:12:49.108Z", 
+        "full_name": "Hyeongmok Lee", 
+        "user_permissions": [], 
+        "password": "pbkdf2_sha256$12000$c9JwQNpqJF8J$I0mefaJ2RYXF0viTGuWo9mek7aOowmxjD6oF8keZzHo=", 
+        "email": "hyeongmoklee@gmail.com", 
+        "date_joined": "2014-12-21T00:50:04.636Z"
+    }
+}
+]

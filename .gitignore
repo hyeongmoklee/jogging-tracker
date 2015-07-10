@@ -1,0 +1,7 @@
+*.pyc
+.pydevproject
+src/db.sqlite3
+src/file.log
+.project
+.idea
+

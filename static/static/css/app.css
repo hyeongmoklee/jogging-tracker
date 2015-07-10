@@ -1,0 +1,9 @@
+.ng-pristine { border: 1px solid green; }
+.ng-dirty { border: 1px solid yellow; }
+.ng-invalid.ng-dirty { border: 1px solid red; }
+.ng-valid.ng-dirty { border: 1px solid green; }
+
+form { border: none !important; }
+input[type=date] {
+	line-height: 25px !important;
+}

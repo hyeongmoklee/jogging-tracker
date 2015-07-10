@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="joggingTracker">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<title>Toptal - Jogging Tracker</title>
+		<link href="/static/css/bootstrap.min.css" rel="stylesheet">
+		<link href="/static/css/bootstrap-theme.min.css" rel="stylesheet">
+		<link href="/static/css/custom.css" rel="stylesheet">
+		<link href="/static/css/app.css" rel="stylesheet">     
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+
+		{% include 'header.html' %}
+		
+		<div ng-view></div>
+		
+		{% csrf_token %}
+		
+		{% include 'footer.html' %}
+					
+		<script src="/static/js/angular.min.js"></script>
+		<script src="/static/js/angular-route.js"></script>
+		<script src="/static/js/angular-resource.min.js"></script>
+		<script src="/static/js/angular-cookies.min.js"></script>
+		<script src="/static/js/jquery.min.js"></script>
+		<script src="/static/js/bootstrap.min.js"></script>
+		<script src="/static/js/app/app.js"></script>
+		<script src="/static/js/app/controllers/accountController.js"></script>
+		<script src="/static/js/app/controllers/trackerController.js"></script>
+		<script src="/static/js/app/services/accountService.js"></script>
+		<script src="/static/js/app/services/trackerService.js"></script>
+	</body>
+</html>

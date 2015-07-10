@@ -1,0 +1,20 @@
+[
+{
+    "pk": 2, 
+    "model": "account.userextend", 
+    "fields": {
+        "username": "davidlee", 
+        "groups": [], 
+        "short_name": "", 
+        "is_active": true, 
+        "is_superuser": false, 
+        "is_staff": false, 
+        "last_login": "2014-12-22T11:48:13.672Z", 
+        "full_name": "David Lee", 
+        "user_permissions": [], 
+        "password": "pbkdf2_sha256$12000$zF8iSZzGnXOP$zpheDwGWqpVymnyiZzqIddhfcdmmvHc2z8KhmsXVN/s=", 
+        "email": "freemoky@gmail.com", 
+        "date_joined": "2014-12-20T10:04:59.166Z"
+    }
+}
+]

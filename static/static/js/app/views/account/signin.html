@@ -1,0 +1,25 @@
+<div class="container" ng-controller="AccountController">
+	<div class="col-md-4 col-md-offset-4">
+		<h1 style="font-size: 20px; margin-bottom: 5px;">Sign In</h1>
+		<p>Not a member? <a href="#/account/signup" style="text-decoration: underline; margin-left: 10px;">Create an account free</a></p>
+        <form name="signin_form" role="form" ng-submit="signin()">
+			<div class="well">
+				<div class="form-group">
+					<label for="username">Username</label>
+					<input type="text" id="username" name="username" class="form-control" ng-model="username">
+					<div ng-show="signin_form.username.$dirty && signin_form.username.$invalid">
+						<span ng-show="signin_form.username.$error">That is not a valid username</span>
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="password">Password</label>
+					<input type="password" id="password" name="password" class="form-control" ng-model="password" required>
+					<div ng-show="invalidLogin" style="color: red;">
+						User information is invalid
+					</div>
+				</div>
+			</div>
+			<button type="submit" class="btn btn-primary" name="submit" ng-disabled="signin_form.$dirty && signin_form.$invalid">Sign In</button>
+		</form>
+	</div>
+</div>

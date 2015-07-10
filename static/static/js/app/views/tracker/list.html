@@ -1,0 +1,70 @@
+<div class="container" ng-controller="TrackerController">
+	<div class="page-header">
+		<h1 class="page-header-title">Entry List</h1>
+	</div>
+	<div class="row text-right">
+		<button type="button" class="btn btn-primary" id="id_print_expenses"
+			ng-click="go2('report')">Weekly Report</button>
+		<button type="button" class="btn btn-primary" id="id_new_expense"
+			ng-click="moveToEditView()">Add Entry</button>
+	</div>
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+		aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header dialog-header-confirm">
+					<button type="button" class="close" data-dismiss="modal">
+						<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+					</button>
+					<h4 class="modal-title" id="myModalLabel">Delete Confirmation</h4>
+				</div>
+				<div class="modal-body">
+					<div>
+						<p>Do you really want to delete the entry?</p>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-success" data-dismiss="modal">Cancel</button>
+					<button type="button" class="btn btn-danger" ng-click="deleteEntry()" data-dismiss="modal">Delete</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="input-group" style="padding: 20px 0;">
+			Filter the entry list by date from <input type="date" ng-model="dateFrom" style="padding: 0 5px;"> 
+			to <input type="date" ng-model="dateTo" style="padding: 0 5px;">
+		</div>
+		<table class="table table-striped" id="id_list_table">
+			<thead>
+				<th class="text-center">#</th>
+				<th class="text-center">Date</th>
+				<th class="text-right">Distance (miles)</th>
+				<th class="text-center">Time</th>
+				<th class="text-right">Average Speed</th>
+				<th class="text-center">Menu</th>
+			</thead>
+			<tbody ng-if="entryList.length > 0">
+				<tr ng-repeat="entry in entryList | myDateFilter:dateFrom:dateTo">
+					<td class="text-center">[[ $index + 1 ]]</td>
+					<td class="text-center">[[ entry.date | date:'yyyy-MM-dd' ]]</td>
+					<td class="text-right">[[ entry.distance ]]</td>
+					<td class="text-center">[[ entry.time.hour ]]:[[entry.time.minute ]]:[[ entry.time.second ]]</td>
+					<td class="text-right">[[ entry.averageSpeed ]] mph</td>
+					<td class="text-center">
+						<button type="button" class="btn btn-xs btn-success"
+							ng-click="editEntry([[ entry.id ]])">Edit</button>
+						<button type="button" class="btn btn-xs btn-danger"
+							data-toggle="modal" data-target="#myModal" ng-click="setDeleteEntry([[ entry.id ]])">Delete</button>
+					</td>
+				</tr>
+			</tbody>
+			<tbody ng-if="entryList.length == 0">
+				<tr>
+					<td colspan="6" class="text-center">No entries</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
